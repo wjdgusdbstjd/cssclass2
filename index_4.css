@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Serif+KR:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Gowun Dodum', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    background-color: #644228;
+    overflow-x: hidden;
+}
+
+.logo_a {
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.logo_a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(76, 35, 11, 0.578);
+    border-radius: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #644228;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-bottom: 1px solid #A8A885;
+}
+
+header h1 {
+    color: #A8A885;
+    font-size: 8px;
+}
+
+header span {
+    font-size: 35px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #A8A885;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+header .a3 {
+    background-color: rgba(76, 35, 11, 0.578);
+    border-radius: 100vw;
+}
+
+header a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(76, 35, 11, 0.578);
+    border-radius: 100vw;
+
+}
+
+#contents {
+    padding-top: 120px;
+    height: 500px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #A8A885;
+
+}
+
+/*=============================================================*/
+.preview {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.preview a{
+    text-decoration: none;
+    color: #A8A885;
+}
+.preview1,
+.preview2,
+.preview3,
+.preview4{
+    display: block;
+}
+.preview img {
+    display: block;
+    width: 230px;
+    height: 330px;
+    transition: all 0.4s ease-in;
+    margin: 30px;
+    opacity: 1;
+    z-index: 2;
+}
+.preview1 p,
+.preview2 p,
+.preview3 p,
+.preview4 p{
+    text-align: center;
+    color: #A8A885;
+    margin-bottom: 30px;;
+}
+.preview1 p:hover,
+.preview2 p:hover,
+.preview3 p:hover,
+.preview4 p:hover{
+    color: rgb(196, 177, 151);
+    border-bottom:2px solid rgb(196, 177, 151);
+    
+}
+.img1:hover {
+    transform: translateY(-25px);
+}
+
+.img2:hover {
+    transform: translateY(-25px);
+}
+
+.img3:hover {
+    transform: translateY(-25px);
+}
+
+.img4:hover {
+    /*padding-bottom: 50px;  이 코드때문에 이미지에 호버시 텍스트 위치도 이동하였다*/
+    transform: translateY(-25px);
+}
+
+.real_content {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.first,
+.second,
+.third,
+.fourth{
+    margin: 130px;
+}
+.real_content .first,
+.real_content .second,
+.real_content .third,
+.real_content .fourth {
+    display: flex;
+    justify-content: center;
+}
+
+.real_content img {
+    width: 500px;
+    margin: 20px;
+}
+
+.real_content p {
+    color: #A8A885;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.p_span {
+    margin-top: 20px;
+}
